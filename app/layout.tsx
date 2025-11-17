@@ -24,9 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en"
-      // data-darkreader-mode="dynamic">
-      // data-darkreader-mode=""
-      >
+    // data-darkreader-mode="dynamic">
+    // data-darkreader-mode=""
+    >
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

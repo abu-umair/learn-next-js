@@ -34,3 +34,9 @@ npx create-next-app@latest
 
 # Praktik Terbaik Interleaving
 ## 01:09:13 Praktik Terbaik Interleaving
+
+
+
+
+# Menggunakan layout untuk berbagi UI antar halaman
+## 01:14:55 Layouts: Menggunakan layout untuk berbagi UI antar halaman.
