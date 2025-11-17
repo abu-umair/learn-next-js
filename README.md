@@ -23,3 +23,9 @@ npx create-next-app@latest
 
 # Routing Dasar
 ## 01:05:05 Routing Dasar: Membuat route (halaman) baru di Next.js.
+
+
+
+
+# Nested Routes
+## 01:07:57 Nested Routes: Membuat route bersarang.
