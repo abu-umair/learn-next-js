@@ -17,3 +17,9 @@ npx create-next-app@latest
 
 # React Server Components
 ## 00:41:43 React Server Components: Konsep dasar dan implementasinya di Next.js.
+
+
+
+
+# Routing Dasar
+## 01:05:05 Routing Dasar: Membuat route (halaman) baru di Next.js.
