@@ -12,3 +12,8 @@ npx create-next-app@latest
 - folder `app` : folder aplikasi kita
 - folder `node_modules` : tempat packages
 - folder `public` : untuk gambar / site static (penyimpanan static assets bisa di akses secara public)
+
+
+
+# React Server Components
+## 00:41:43 React Server Components: Konsep dasar dan implementasinya di Next.js.
