@@ -45,3 +45,8 @@ npx create-next-app@latest
 
 # Nested Layout
 ## 01:22:16 Nested Layout: Membuat layout bersarang untuk kasus yang lebih kompleks.
+
+
+
+# Navigasi Antar Halaman
+## 01:31:19 Navigasi Antar Halaman: Menggunakan komponen `Link`.
