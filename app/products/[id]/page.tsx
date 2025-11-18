@@ -1,5 +1,7 @@
 //?misal mengakses 'http://localhost:3000/products/id-product'
-export default async function ProductsPage({ params }) {
+export default async function ProductsPage({ params,  }: {
+    params: Promise<{id: string}>; //?mengatasi error dengan typescript (agar terstruktur)
+}) {
     // console.log(await params); //?mendapatkan params dari url (propertu 'id' berdasarkan folder yang dibuat di folder products)
 
     // const id = (await params).id
