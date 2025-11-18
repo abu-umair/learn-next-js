@@ -50,3 +50,7 @@ npx create-next-app@latest
 
 # Navigasi Antar Halaman
 ## 01:31:19 Navigasi Antar Halaman: Menggunakan komponen `Link`.
+
+
+# Dynamic Routes (dengan param url)
+## 01:36:45 Dynamic Routes: Membuat route dinamis dengan parameter URL.
