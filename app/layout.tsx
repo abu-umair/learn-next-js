@@ -24,14 +24,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en"
-    // data-darkreader-mode="dynamic">
-    // data-darkreader-mode=""
+      data-darkreader-mode="dynamic"
     >
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="border-b border-white">Logo</header>
         {children}
       </body>
     </html>
   );
 }
+
+//mirip seperti ini 
+{/* <RootLayout> //?hanya menginpyt layout root (default)
+    <Page />
+</RootLayout> */}

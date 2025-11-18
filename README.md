@@ -40,3 +40,8 @@ npx create-next-app@latest
 
 # Menggunakan layout untuk berbagi UI antar halaman
 ## 01:14:55 Layouts: Menggunakan layout untuk berbagi UI antar halaman.
+
+
+
+# Nested Layout
+## 01:22:16 Nested Layout: Membuat layout bersarang untuk kasus yang lebih kompleks.
