@@ -54,3 +54,10 @@ npx create-next-app@latest
 
 # Dynamic Routes (dengan param url)
 ## 01:36:45 Dynamic Routes: Membuat route dinamis dengan parameter URL.
+
+
+# Route Groups
+## 01:46:48 Route Groups: Mengelompokkan route tanpa mempengaruhi URL.
+1. http://localhost:3000/user : user dibungkus dengan 'DashboardLayout' (karena didalam group yang sama dengan admin yang memiliki layout)
+2. http://localhost:3000/admin : admin dibungkus dengan 'DashboardLayout' juga 
+3. http://localhost:3000 : tidak dibungkus dengan 'DashboardLayout' (karena tidak didalam group yang sama) 

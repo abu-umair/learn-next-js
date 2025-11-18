@@ -1,10 +1,10 @@
-export default function AdminLayout({ children }: {
+export default function DashboardLayout({ children }: {
     children: React.ReactNode;
 }) {
     return (
         < main >
             <header className="border-b border-green-500">
-                Admin layout
+                Dashboard layout
             </header>
             {children}
         </ main>
