@@ -61,3 +61,9 @@ npx create-next-app@latest
 1. http://localhost:3000/user : user dibungkus dengan 'DashboardLayout' (karena didalam group yang sama dengan admin yang memiliki layout)
 2. http://localhost:3000/admin : admin dibungkus dengan 'DashboardLayout' juga 
 3. http://localhost:3000 : tidak dibungkus dengan 'DashboardLayout' (karena tidak didalam group yang sama) 
+
+
+
+# Pembahasan Colocation
+## 01:53:05 Pembahasan Colocation
+1. cuma pembahasan saja
