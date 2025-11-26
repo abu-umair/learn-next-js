@@ -72,3 +72,8 @@ npx create-next-app@latest
 
 # Perbedaan Layout & Import Komponen
 ## 02:06:54 Perbedaan Layout & Import Komponen
+
+
+# Styling di Next.js
+## 02:07:48 Styling di Next.js: Opsi styling (CSS Modules, Tailwind, dll.).
+1. berada di glolas.css
