@@ -67,3 +67,8 @@ npx create-next-app@latest
 # Pembahasan Colocation
 ## 01:53:05 Pembahasan Colocation
 1. cuma pembahasan saja
+2. ketika di layout wajib menambahkan tag html dan body, diluar itu tidak
+
+
+# Perbedaan Layout & Import Komponen
+## 02:06:54 Perbedaan Layout & Import Komponen
