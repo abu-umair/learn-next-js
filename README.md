@@ -77,3 +77,9 @@ npx create-next-app@latest
 # Styling di Next.js
 ## 02:07:48 Styling di Next.js: Opsi styling (CSS Modules, Tailwind, dll.).
 1. berada di glolas.css
+
+
+# Tailwind CSS
+## 02:15:55 Tailwind CSS
+1. menggunakan radix dan shadcn
+2. jika bootstrap ada dari bootstrap dan juga dari reactrap
