@@ -88,3 +88,8 @@ npx create-next-app@latest
 # Menggunakan Google Fonts
 ## 02:19:37 Font: Menggunakan Google Fonts dengan Next.js.
 mengatur font di tutorial pada tailwind.config, sedangkan project ini tidak ada tailwin.config, jadi mengaturnya di globals.css
+
+
+
+# Mengoptimalkan gambar dengan komponen `Image`
+## 02:28:54 Komponen Image: Mengoptimalkan gambar dengan komponen `Image`.
