@@ -14,7 +14,14 @@ export default function Home() {
         src="https://plus.unsplash.com/premium_photo-1677101221533-52b45823a2dc?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
 
     </div> */}
-      <Image src={gambarKucing} alt="gambar kucing" /> {/* ?width dan height opsional dan lebih enak */}
+      {/*<Image src={gambarKucing} alt="gambar kucing" />  ?width dan height opsional dan lebih enak */}
+
+      {/* butuh class relative, karena imagenya absolute (agar tidak mengambil titik pinggir di viewport) */}
+      <div className="relative w-72 h-72 rounded-full overflow-hidden">
+        <Image src={gambarKucing} alt="gambar kucing" fill
+          className="object-cover" /> {/* ?width dan height opsional dan lebih enak */}
+
+      </div>
     </div>
   );
 }
