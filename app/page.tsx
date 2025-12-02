@@ -19,7 +19,10 @@ export default function Home() {
       {/* butuh class relative, karena imagenya absolute (agar tidak mengambil titik pinggir di viewport) */}
       <div className="relative w-72 h-72 rounded-full overflow-hidden">
         <Image src={gambarKucing} alt="gambar kucing" fill
+          // loading="eager" //? eager (agar gambar langsung di load)
+          loading="lazy" //? lazy (agar gambar di load ketika di scroll)
           className="object-cover" /> {/* ?width dan height opsional dan lebih enak */}
+
 
       </div>
     </div>
