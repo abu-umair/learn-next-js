@@ -93,3 +93,4 @@ mengatur font di tutorial pada tailwind.config, sedangkan project ini tidak ada 
 
 # Mengoptimalkan gambar dengan komponen `Image`
 ## 02:28:54 Komponen Image: Mengoptimalkan gambar dengan komponen `Image`.
+- untuk convert image menjadi kecil : https://www.base64-image.de/ (kali ini digunakan utk loading blur)
