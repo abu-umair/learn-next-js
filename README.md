@@ -83,3 +83,8 @@ npx create-next-app@latest
 ## 02:15:55 Tailwind CSS
 1. menggunakan radix dan shadcn
 2. jika bootstrap ada dari bootstrap dan juga dari reactrap
+
+
+# Menggunakan Google Fonts
+## 02:19:37 Font: Menggunakan Google Fonts dengan Next.js.
+mengatur font di tutorial pada tailwind.config, sedangkan project ini tidak ada tailwin.config, jadi mengaturnya di globals.css
