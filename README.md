@@ -94,3 +94,19 @@ mengatur font di tutorial pada tailwind.config, sedangkan project ini tidak ada 
 # Mengoptimalkan gambar dengan komponen `Image`
 ## 02:28:54 Komponen Image: Mengoptimalkan gambar dengan komponen `Image`.
 - untuk convert image menjadi kecil : https://www.base64-image.de/ (kali ini digunakan utk loading blur)
+
+
+# Mengambil data di server components
+## 02:57:25 Data Fetching: Mengambil data di server components.
+1. menggunakan pakage untuk membuat json
+```bash
+https://www.npmjs.com/package/json-server
+```
+2. menjalankan
+```bash
+npx json-server database.json
+
+atau
+
+npx json-server database.json -p 3001
+```
