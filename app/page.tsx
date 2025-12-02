@@ -15,7 +15,6 @@ export default function Home() {
 
     </div> */}
       <Image src={gambarKucing} alt="gambar kucing" /> {/* ?width dan height opsional dan lebih enak */}
-      );
     </div>
-  )
+  );
 }
