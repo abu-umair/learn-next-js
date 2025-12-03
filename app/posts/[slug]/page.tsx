@@ -2,7 +2,7 @@ import { Post } from "@/app/types/Post";
 
 async function getPost(slug: string): Promise<Post> {
     const res = await fetch("http://localhost:3001/posts/?slug=" + slug);
-    const post = await res.json();
+    const [post] = await res.json(); //?mengeluarkan object dari array / distructuring
 
     return post;
 }
@@ -20,7 +20,7 @@ export default async function PostPage({
 
     return (
         <article>
-            <h1>page</h1>
+            <h1>{post.content}</h1>
         </article>
     )
 }
