@@ -4,11 +4,17 @@ type Post = {
     content: string;
 }
 
-
-export default async function PostPage() {
+// async function getPost(): Promise<Array<Post>> { bisa juga array seperti ini, sama saja
+async function getPost(): Promise<Post[]> {
     const res = await fetch('http://localhost:3001/posts')
     const posts = (await res.json()) as Post[]
 
+    return posts
+
+}
+
+export default async function PostPage() {
+    const posts = await getPost();
     console.log(posts);
 
     return (
