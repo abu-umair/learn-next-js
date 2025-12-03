@@ -118,3 +118,7 @@ npx json-server database.json -p 3001
 
 # Data Fetching Level Komponen
 ## 03:16:58 Data Fetching Level Komponen
+
+
+# Memahami Extended Fetch API
+## 03:20:52 Memahami Extended Fetch API
