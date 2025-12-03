@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Source_Sans_3, JetBrains_Mono } from "next/font/goog
 import "./globals.css";
 import Link from "next/link";
 import { Header } from "./header";
+import { Footer } from "./footer";
 
 const fontSans = Source_Sans_3({
   variable: "--font-sans",
@@ -43,6 +44,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
