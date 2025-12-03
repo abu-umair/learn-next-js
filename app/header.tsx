@@ -1,8 +1,23 @@
 import Link from "next/link";
 
-export function Header() {
+type Setting = {
+    siteName: string;
+};
+
+async function getSetting(): Promise<Setting> {
+    const res = await fetch("http://localhost:3001/settings");
+    const setting = await res.json();
+
+    return setting;
+}
+
+export async function Header() {
+    const setting = await getSetting();
+
+    console.log(setting);
     return (
         <header className="border-b border-white">
+            <div>{setting.siteName}</div>
             <nav>
                 <Link href="/">Home</Link>
                 <Link href="/about">About</Link>

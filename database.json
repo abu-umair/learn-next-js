@@ -12,5 +12,8 @@
             "slug": "post-2",
             "content": "Content post 2"
         }
-    ]
+    ],
+    "settings": {
+        "siteName": "Ridwan Blog"
+    }
 }

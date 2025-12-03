@@ -115,3 +115,6 @@ npx json-server database.json -p 3001
 
 # Mengambil data di server components
 ## 03:10:48 Halaman Detail Dinamis.
+
+# Data Fetching Level Komponen
+## 03:16:58 Data Fetching Level Komponen
