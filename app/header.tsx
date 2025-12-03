@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getSetting } from "@/app/queries/getSetting";
+import Nav from "./nav";
 
 
 export async function Header() {
@@ -9,11 +10,7 @@ export async function Header() {
     return (
         <header className="border-b border-white py-2 mb-2">
             <div className="text-2xl">{setting.siteName}</div>
-            <nav className="space-x-4">
-                <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
-                <Link href="/about/team">Team</Link>
-            </nav>
+            <Nav />
         </header>
     )
 }
