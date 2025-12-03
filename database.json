@@ -3,11 +3,13 @@
         {
             "id": "1",
             "title": "Post 1",
+            "slug": "post-1",
             "content": "Content post 1"
         },
         {
             "id": "2",
             "title": "Post 2",
+            "slug": "post-2",
             "content": "Content post 2"
         }
     ]

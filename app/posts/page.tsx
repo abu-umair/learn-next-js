@@ -1,8 +1,6 @@
-type Post = {
-    id: string;
-    title: string;
-    content: string;
-}
+import Link from "next/link";
+import { Post } from "@/app/types/Post";//?dipindahin karena bakal di reuse
+
 
 // async function getPost(): Promise<Array<Post>> { bisa juga array seperti ini, sama saja
 async function getPost(): Promise<Post[]> {
@@ -23,8 +21,9 @@ export default async function PostPage() {
 
             {posts.map((post) => (
                 <div key={post.id}>
-                    <h2>{post.title}</h2>
-                    <p>{post.content}</p>
+                    <h2>
+                        <Link href={`/posts/${post.slug}`}>{post.title}</Link>
+                    </h2>
                 </div>
             ))}
         </div>

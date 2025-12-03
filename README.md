@@ -110,3 +110,8 @@ atau
 
 npx json-server database.json -p 3001
 ```
+3. Library zod.dev library untuk Typescript (tetapi tidak dibahas)
+
+
+# Mengambil data di server components
+## 03:10:48 Halaman Detail Dinamis.
