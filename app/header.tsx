@@ -1,5 +1,6 @@
 import { getSetting } from "@/app/queries/getSetting";
 import { Nav } from "./nav";
+import { Suspense } from "react";
 
 
 export async function Header() {
@@ -8,8 +9,10 @@ export async function Header() {
     console.log(setting);
     return (
         <header className="border-b border-white py-2 mb-2">
-            {/* <div className="text-2xl">{setting.siteName}</div> */}
-            <Nav settingPromise={setting} />
+            <Suspense fallback={<div>Loading...</div>} > {/*?menggunakan suspense untuk menampilkan loading ketika data belum siap/masih ngebaca promise/STREAMING */}
+                {/* <div className="text-2xl">{setting.siteName}</div> */}
+                <Nav settingPromise={setting} />
+            </Suspense>
         </header>
     )
 }
