@@ -1,16 +1,15 @@
-import Link from "next/link";
 import { getSetting } from "@/app/queries/getSetting";
-import Nav from "./nav";
+import { Nav } from "./nav";
 
 
 export async function Header() {
-    const setting = await getSetting(); //?mengambil data setting (1x)
+    const setting = getSetting(); //?mengambil data setting (1x)
 
     console.log(setting);
     return (
         <header className="border-b border-white py-2 mb-2">
-            <div className="text-2xl">{setting.siteName}</div>
-            <Nav />
+            {/* <div className="text-2xl">{setting.siteName}</div> */}
+            <Nav settingPromise={setting} />
         </header>
     )
 }

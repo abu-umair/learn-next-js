@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Source_Sans_3, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
 import { Header } from "./header";
 import { Footer } from "./footer";
 

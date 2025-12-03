@@ -1,9 +1,17 @@
 "use client";
 import Link from 'next/link'
-import { getSetting } from '@/app/queries/getSetting';
+import { Setting } from '@/app/types/Setting';
+import { use } from 'react';
 
-export default async function Nav() {
-    const setting = await getSetting();
+export function Nav({
+    settingPromise
+}: {
+    settingPromise: Promise<Setting>
+}) {
+    
+    const setting = use(settingPromise);
+    console.log(setting);
+    
 
     return (
         <nav className="space-x-4">
