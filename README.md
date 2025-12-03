@@ -122,3 +122,4 @@ npx json-server database.json -p 3001
 
 # Memahami Extended Fetch API
 ## 03:20:52 Memahami Extended Fetch API
+1. mesipun 2x di fetch, tetapi tetap 1x saja difetch (keunggulan next)

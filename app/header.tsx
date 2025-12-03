@@ -3,7 +3,7 @@ import { getSetting } from "@/app/queries/getSetting";
 
 
 export async function Header() {
-    const setting = await getSetting();
+    const setting = await getSetting(); //?mengambil data setting (1x)
 
     console.log(setting);
     return (
