@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Source_Sans_3, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import { Header } from "./header";
 
 const fontSans = Source_Sans_3({
   variable: "--font-sans",
@@ -40,12 +41,7 @@ export default function RootLayout({
       <body
         className={`${fontSans.variable} ${fontMono.variable} antialiased`}
       >
-        <header className="border-b border-white">Logo</header>
-        <nav>
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/about/team">Team</Link>
-        </nav>
+        <Header />
         {children}
       </body>
     </html>
