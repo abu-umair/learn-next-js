@@ -123,3 +123,7 @@ npx json-server database.json -p 3001
 # Memahami Extended Fetch API
 ## 03:20:52 Memahami Extended Fetch API
 1. mesipun 2x di fetch, tetapi tetap 1x saja difetch (keunggulan next)
+
+notes:
+1. jika tidak bisa menggunakan data fetching di sisi client componen, bisa menggunakan useEffect, swr, react query (cara seperti ini masih bisa digunakan)
+2. sangat disarankan semua data di server component, agar di stream (ketika di client component bisa ngebaca value dengan use)
