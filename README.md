@@ -133,3 +133,7 @@ notes:
 ## 03:38:48 Server Actions & Mutations: Membuat dan menggunakan server actions.
 1. Server actions adl sebuah function JS asyncronuse nantinya funct tsb dieksekusi disisi server component, dan bisa dipanggil di client component maupun server component
 2. bisa digunakan utk menghandle form selain itu juga bisa untk Event handler ke Onclick
+
+
+# Form Validation
+## 03:51:01 Form Validation
