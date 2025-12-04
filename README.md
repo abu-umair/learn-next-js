@@ -149,3 +149,7 @@ notes:
 
 # Mengatur metadata (title, description, dll.) untuk SEO
 ## 04:08:05 Metadata: Mengatur metadata (title, description, dll.) untuk SEO.
+
+
+# Favicon
+## 04:16:58 Favicon
