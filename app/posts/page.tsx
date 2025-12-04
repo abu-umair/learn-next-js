@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { Post } from "@/app/types/Post";//?dipindahin karena bakal di reuse
+import type { Metadata } from "next";
 
+
+export const metadata: Metadata = { 
+    title: "Posts",
+};
 
 // async function getPost(): Promise<Array<Post>> { bisa juga array seperti ini, sama saja
 async function getPost(): Promise<Post[]> {
