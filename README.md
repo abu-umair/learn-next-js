@@ -153,3 +153,7 @@ notes:
 
 # Favicon
 ## 04:16:58 Favicon
+
+
+# Favicon
+## 04:18:52 Loading UI & Streaming: Membuat loading state dan implementasi streaming.
