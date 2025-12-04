@@ -157,3 +157,7 @@ notes:
 
 # Favicon
 ## 04:18:52 Loading UI & Streaming: Membuat loading state dan implementasi streaming.
+
+
+# Membuat API endpoint di Next.js
+## 04:30:07 Route Handlers: Membuat API endpoint di Next.js.
