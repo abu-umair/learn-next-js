@@ -127,3 +127,9 @@ npx json-server database.json -p 3001
 notes:
 1. jika tidak bisa menggunakan data fetching di sisi client componen, bisa menggunakan useEffect, swr, react query (cara seperti ini masih bisa digunakan)
 2. sangat disarankan semua data di server component, agar di stream (ketika di client component bisa ngebaca value dengan use)
+
+
+# Membuat dan menggunakan server actions
+## 03:38:48 Server Actions & Mutations: Membuat dan menggunakan server actions.
+1. Server actions adl sebuah function JS asyncronuse nantinya funct tsb dieksekusi disisi server component, dan bisa dipanggil di client component maupun server component
+2. bisa digunakan utk menghandle form selain itu juga bisa untk Event handler ke Onclick
