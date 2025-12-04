@@ -11,3 +11,8 @@ export async function createComment(prevData: any, formData: FormData) {
         }
     }
 }
+
+export async function createLike() {
+    console.log("like");
+    
+}
