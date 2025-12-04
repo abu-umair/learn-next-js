@@ -5,7 +5,7 @@ export async function createComment(prevData: any, formData: FormData) {
     console.log(formData.get("comment")); //?comment: nama inputan di form
     const comment = formData.get("comment") as string;
 
-    if(!comment){
+    if (!comment) {
         return {
             error: "Comment is required"
         }
@@ -13,6 +13,12 @@ export async function createComment(prevData: any, formData: FormData) {
 }
 
 export async function createLike() {
+    await new Promise( //?fake delay
+        resolve => setTimeout(
+            () => resolve(true), 3000
+        )
+    );
+
     console.log("like");
-    
+
 }
