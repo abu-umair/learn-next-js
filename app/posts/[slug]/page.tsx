@@ -19,8 +19,23 @@ export default async function PostPage({
 
 
     return (
-        <article>
-            <h1>{post.content}</h1>
-        </article>
+        <>
+            <article>
+                <h1 className="text-lg">{post.content}</h1>
+                <p>{post.content}</p>
+            </article>
+            <section className="mt-4">
+                <h2 className="text-lg">Comments</h2>
+                <form className="flex flex-col w-72">
+                    <textarea
+                        placeholder="Write your comment here..."
+                        className="w-full h-40 border border-white mb-2 text-black"
+                    />
+                    <button className="bg-blue-500 text-white py-2 px-4 rounded w-full">
+                        Send
+                    </button>
+                </form>
+            </section>
+        </>
     )
 }
