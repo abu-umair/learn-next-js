@@ -1,6 +1,8 @@
 import { Post } from "@/app/types/Post";
 import { CommentForm } from "./comment-form";
 import { LikeButton } from "./like-button";
+import { Comments } from "./comment";
+import { Suspense } from "react";
 
 
 export async function generateMetadata({ //?bisa juga metadata dynamic seperti ini dari argument/param
@@ -45,6 +47,10 @@ export default async function PostPage({
             </article>
             <section className="mt-4">
                 <h2 className="text-lg">Comments</h2>
+                {/* membuat streaming loading versi suspense */}
+                <Suspense fallback={<p>Loading comments...</p>}>
+                    <Comments />
+                </Suspense>
                 {/* dipisah karena menjadikan client component/abstrak */}
                 <CommentForm />
             </section>
