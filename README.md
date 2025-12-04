@@ -141,3 +141,7 @@ notes:
 
 # Penggunaan di Button 
 ## 03:57:53 Penggunaan di Button
+
+
+# Passing Argumen
+## 04:05:21 Passing Argumen
