@@ -1,3 +1,4 @@
+import { createComment } from "@/app/actions";
 import { Post } from "@/app/types/Post";
 
 async function getPost(slug: string): Promise<Post> {
@@ -26,8 +27,9 @@ export default async function PostPage({
             </article>
             <section className="mt-4">
                 <h2 className="text-lg">Comments</h2>
-                <form className="flex flex-col w-72">
+                <form className="flex flex-col w-72" action={createComment}>
                     <textarea
+                        name="comment"
                         placeholder="Write your comment here..."
                         className="w-full h-40 border border-white mb-2 text-black"
                     />
