@@ -12,13 +12,13 @@ export async function createComment(prevData: any, formData: FormData) {
     }
 }
 
-export async function createLike() {
+export async function createLike(postId: string) {
     await new Promise( //?fake delay
         resolve => setTimeout(
             () => resolve(true), 3000
         )
     );
 
-    console.log("like");
+    console.log("like, postId:", postId);
 
 }

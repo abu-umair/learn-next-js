@@ -5,12 +5,12 @@ import {  useTransition } from "react";
 
 
 
-export function LikeButton() {
+export function LikeButton({ postId }: { postId: string }) { //?postnya ID tipenya apa? yaitu berupa string
     const [pending, startTransition] = useTransition()
 
     async function handleLike() {
         startTransition(async () => {
-            await createLike();
+            await createLike(postId);
         })
     }
 
