@@ -145,3 +145,7 @@ notes:
 
 # Passing Argumen
 ## 04:05:21 Passing Argumen
+
+
+# Mengatur metadata (title, description, dll.) untuk SEO
+## 04:08:05 Metadata: Mengatur metadata (title, description, dll.) untuk SEO.
