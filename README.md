@@ -179,3 +179,13 @@ Enp: http://localhost:3000/api/user/2
 
 6. mengambil dengan params
 endp: http://localhost:3000/api/user?query=contoh
+
+6. mengambil dengan params dengan POST
+menjalankannya dipostman : pilih Body->raw-> isi:
+{
+    "name": "Rid",
+    "username": "test"
+}
+
+endp: http://localhost:3000/api/user
+hasilnya di terminal

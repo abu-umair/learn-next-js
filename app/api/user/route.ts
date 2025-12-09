@@ -10,7 +10,10 @@ export async function GET(request: NextRequest) {
     });
 }
 
-export async function POST() {
+export async function POST(request: Request) {
+    const body = await request.json();
+    console.log(body);//?melihat di terminal
+    
     return Response.json({
         message: "User POST response"
     });
