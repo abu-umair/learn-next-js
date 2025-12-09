@@ -193,3 +193,4 @@ hasilnya di terminal
 
 # Middleware
 ## 04:42:55 Middleware
+1. setiap url yang kita jalankan, ada console.log di terminal (artinya middleware dipanggil terus setiap url yang diakses)
