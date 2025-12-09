@@ -6,6 +6,8 @@ export function middleware(request: NextRequest) {
     if (pathname.startsWith("/admin")) {
         console.log('admin page');
     }
+
+    //?juga bisa mengecek yang lain dengan `if`
 }
 
 // export const config = {
