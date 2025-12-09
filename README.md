@@ -170,3 +170,5 @@ test nya di postman dengan method POST
 3. Bisa membuat Put dll endpoint di next js
 test nya di postman dengan method PUT
 
+4. mengambil data didalam table user
+Enp: http://localhost:3000/api/user/1
