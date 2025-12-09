@@ -199,3 +199,5 @@ hasilnya di terminal
 
 3. metode patern yang sering digunakan (bagus juga untuk mengecek token, auth)
 endp: http://localhost:3000/admin, baru muncul di terminal
+
+4. middleware untuk redirect misal 404 dll
