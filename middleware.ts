@@ -4,7 +4,8 @@ export function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
 
     if (pathname.startsWith("/admin")) {
-        return NextResponse.rewrite(new URL("/forbidden", request.nextUrl));//?redirect ke halaman forbidden tetapi url/path tetap '/admin' (fungsi rewrite)
+        // return NextResponse.rewrite(new URL("/forbidden", request.nextUrl));//?redirect ke halaman forbidden tetapi url/path tetap '/admin' (fungsi rewrite)
+        return NextResponse.redirect(new URL("/forbidden", request.nextUrl));//?redirect ke halaman forbidden juga url/path '/forbidden' (fungsi redirect)
     }
 
     //?juga bisa mengecek yang lain dengan `if`
