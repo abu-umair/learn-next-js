@@ -201,3 +201,7 @@ hasilnya di terminal
 endp: http://localhost:3000/admin, baru muncul di terminal
 
 4. middleware untuk redirect misal 404 dll
+
+
+# Error Handling
+## 04:54:36 Error Handling: Menangani error dengan `error.tsx` dan `not-found.tsx`.
