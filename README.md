@@ -205,3 +205,6 @@ endp: http://localhost:3000/admin, baru muncul di terminal
 
 # Error Handling
 ## 04:54:36 Error Handling: Menangani error dengan `error.tsx` dan `not-found.tsx`.
+1. membuat not found jika url yang diakses salah/tidak ada, misal:
+http://localhost:3000/notasdds
+
