@@ -3,6 +3,7 @@ import { CommentForm } from "./comment-form";
 import { LikeButton } from "./like-button";
 import { Comments } from "./comment";
 import { Suspense } from "react";
+import { notFound } from "next/navigation";
 
 
 export async function generateMetadata({ //?bisa juga metadata dynamic seperti ini dari argument/param
@@ -35,6 +36,11 @@ export default async function PostPage({
     const { slug } = await params
     const post = await getPost(slug);
     console.log(post);
+
+    if (!post) {
+        notFound(); //? mentriger notfound secara manual
+
+    }
 
 
     return (
