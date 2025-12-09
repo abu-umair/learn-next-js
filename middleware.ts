@@ -5,7 +5,7 @@ export function middleware(request: NextRequest) {
     const token = request.cookies.get("token");//?mengambil cookie token
     console.log(token);//?melihat di terminal
 
-    if (pathname.startsWith("/admin")) {
+    if (pathname.startsWith("/admin") && !token?.value) {
         // return NextResponse.rewrite(new URL("/forbidden", request.nextUrl));//?redirect ke halaman forbidden tetapi url/path tetap '/admin' (fungsi rewrite)
         return NextResponse.redirect(new URL("/forbidden", request.nextUrl));//?redirect ke halaman forbidden juga url/path '/forbidden' (fungsi redirect)
     }
