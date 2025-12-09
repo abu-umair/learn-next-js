@@ -163,3 +163,7 @@ notes:
 ## 04:30:07 Route Handlers: Membuat API endpoint di Next.js.
 1. Bisa membuat endpoint di next js
 ketika di buka endpoint : http://localhost:3000/api/user, maka menampilkan response seperti get api,
+
+2. Bisa membuat POST endpoint di next js
+test nya di postman dengan method POST
+

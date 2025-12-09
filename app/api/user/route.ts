@@ -3,3 +3,9 @@ export async function GET() {
         message: "User get response"
     });
 }
+
+export async function POST() {
+    return Response.json({
+        message: "User POST response"
+    });
+}
