@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 
 export function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
+    const token = request.cookies.get("token");//?mengambil cookie token
+    console.log(token);//?melihat di terminal
 
     if (pathname.startsWith("/admin")) {
         // return NextResponse.rewrite(new URL("/forbidden", request.nextUrl));//?redirect ke halaman forbidden tetapi url/path tetap '/admin' (fungsi rewrite)
