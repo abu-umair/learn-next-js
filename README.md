@@ -172,3 +172,7 @@ test nya di postman dengan method PUT
 
 4. mengambil data didalam table user
 Enp: http://localhost:3000/api/user/1
+
+5. mengambil data didalam table user menggunakan ID
+Enp: http://localhost:3000/api/user/1
+Enp: http://localhost:3000/api/user/2
