@@ -176,3 +176,6 @@ Enp: http://localhost:3000/api/user/1
 5. mengambil data didalam table user menggunakan ID
 Enp: http://localhost:3000/api/user/1
 Enp: http://localhost:3000/api/user/2
+
+6. mengambil dengan params
+endp: http://localhost:3000/api/user?query=contoh
