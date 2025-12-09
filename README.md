@@ -196,3 +196,6 @@ hasilnya di terminal
 1. setiap url yang kita jalankan, ada console.log di terminal (artinya middleware dipanggil terus setiap url yang diakses)
 
 2. menjalankan middleware hanya request /posts (http://localhost:3000/posts) saja (pattern matching)
+
+3. metode patern yang sering digunakan (bagus juga untuk mengecek token, auth)
+endp: http://localhost:3000/admin, baru muncul di terminal
