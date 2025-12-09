@@ -167,3 +167,6 @@ ketika di buka endpoint : http://localhost:3000/api/user, maka menampilkan respo
 2. Bisa membuat POST endpoint di next js
 test nya di postman dengan method POST
 
+3. Bisa membuat Put dll endpoint di next js
+test nya di postman dengan method PUT
+

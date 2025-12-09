@@ -9,3 +9,9 @@ export async function POST() {
         message: "User POST response"
     });
 }
+
+export async function PUT() {
+    return Response.json({
+        message: "User PUT response"
+    });
+}
