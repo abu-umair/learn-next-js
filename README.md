@@ -214,3 +214,4 @@ http://localhost:3000/notasdds
 
 4. handling error untuk page post, menggunakan tekhnik 'https://nextjs.org/docs/app/getting-started/error-handling'
 
+5. error dilayout tidak ngecast error handling (jika errornya di layout)

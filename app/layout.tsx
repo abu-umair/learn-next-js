@@ -42,6 +42,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  throw new Error("Error throw from root layout"); //?dibuat error
+
   return (
     <html lang="en"
       data-darkreader-mode="dynamic"
