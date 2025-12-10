@@ -15,6 +15,12 @@ export async function generateMetadata({ //?bisa juga metadata dynamic seperti i
 
     const post = await getPost(slug);
 
+    if (!post) {
+        return {
+            title: "Post not found", //? mengatur nama <title> jika post tidak ditemukan
+        };
+    }
+
     return {
         title: post.title,
     };
