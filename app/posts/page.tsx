@@ -21,6 +21,8 @@ async function getPost(): Promise<Post[]> {
 export default async function PostPage() {
     const posts = await getPost();
     console.log(posts);
+    // throw new Error("Error throw in Home page"); //?dibuat error
+
 
     return (
         <div>

@@ -212,3 +212,5 @@ http://localhost:3000/notasdds
 
 3. sengaja dibuat error, maka akan tampil errornya (menggunakan error handling), hanya pada http://localhost:3000/, sedangkan ditempat lain tidak
 
+4. handling error untuk page post, menggunakan tekhnik 'https://nextjs.org/docs/app/getting-started/error-handling'
+
