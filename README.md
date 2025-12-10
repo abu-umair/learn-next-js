@@ -209,3 +209,6 @@ endp: http://localhost:3000/admin, baru muncul di terminal
 http://localhost:3000/notasdds
 
 2. jika diakses http://localhost:3000/posts/post-1, masih ada, tetapi jika: http://localhost:3000/posts/post-5 tidak ada, dan terlihat error
+
+3. sengaja dibuat error, maka akan tampil errornya (menggunakan error handling), hanya pada http://localhost:3000/, sedangkan ditempat lain tidak
+

@@ -9,6 +9,7 @@ export const metadata: Metadata = { //?mengubah metadata perhalaman
 };
 
 export default function Home() {
+  throw new Error("Error throw in Home page"); //?dibuat error
   return (
     <div>
       <h1>Home</h1> {/*? //?server componen (karena tidak ada layout / static) */}
